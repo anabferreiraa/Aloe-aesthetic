@@ -34,7 +34,7 @@
     <header>
    <div class="w-full flex flex-col md:flex-row ">
     
-    <div class="w-full md:w-3/6 md:h-[550px] xl:h-[660px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:pl-10 md:gap-20 xl:gap-24  bg-maingreen">
+    <div class="w-full md:w-3/6 md:h-[550px] xl:h-[660px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24  bg-maingreen">
        
         <nav class=" flex flex-row items-center mt-5 ">
                 <div>
@@ -89,10 +89,10 @@
             </div>
             <!--imagem de efeito para lg -->
             <div class="hidden lg:flex xl:hidden relative lg:top-[160px] lg:right-7">
-                <img class=" max-w-none " src="assets/img/imagem-efect-lg.png" alt="">
+                <img class=" max-w-none" src="assets/img/imagem-efect-lg.png" alt="">
             </div>  
             <!--imagem de efeito para xl -->
-            <div class="hidden xl:flex relative xl:top-[170px] xl:right-5">
+            <div class="hidden xl:flex relative xl:top-[170px] xl:right-6">
                 <img class=" max-w-none " src="assets/img/imagem-efect-xl.png" alt="">
             </div>  
          <!--imagem dos produtos-->
@@ -135,7 +135,7 @@
            
                 <!--sessao para outros dispositivos  -->
 
-                <div class="hidden  md:flex flex-col p-5  gap-4 md:p-10 ">
+                <div class="hidden  md:flex flex-col p-5  gap-4 md:p-10 xl:p-[70px] ">
                     <div>
                         <h1 class="text-text text-2xl md:text-3xl ">Aloe Vera</h1>
                     </div>
@@ -158,7 +158,7 @@
 
     <section id="sectionProduct" class=" h-auto w-full bg-white lg:flex lg:flex-col ">
        
-        <div class="px-5 md:px-10 mt-10 ">
+        <div class="px-5 md:px-10 mt-10 xl:px-[70px] xl:pt-[50px] ">
             <div class="flex flex-row items-center gap-2 py-5">
                 <div class="w-[15px] h-[18px] bg-green"></div>
                 <div>
@@ -167,7 +167,7 @@
             </div>
         </div>
       
-        <div class=" xl:w-[950px] flex flex-col p-5 gap-10 md:p-10 xl:gap-20 mt-16">
+        <div class=" xl:w-full flex flex-col p-5 gap-10 md:p-10 xl:p-[70px] xl:gap-20 mt-16">
             
             <!--HIDRATANTE-->
             
@@ -223,10 +223,10 @@
                     
                 </div>
                 <div class="w-[50%] h-[230px] relative ">
-                    <div class="absolute z-40 right-[45px] top-14 md:right-[110px] md:-top-[20px] lg:right-[100px] xl:right-[230px]">
+                    <div class="absolute z-40 right-[45px] top-14 md:right-[90px] md:-top-[20px] lg:right-[100px] xl:right-[230px]">
                         <img class="w-[60px] h-[163px] md:w-[80px] md:h-[200px]  max-w-none" src="assets/img/Esfoliante.png" alt="">
                     </div>
-                    <div class="w-[144px] h-[89px] md:w-[256px] md:h-[118px] shadow-inner relative top-[145px] left-[20px] md:top-[80px] md:left-[60px] lg:top-[96px] bg-emerald"></div>
+                    <div class="w-[144px] h-[89px] md:w-[256px] md:h-[118px] shadow-inner relative top-[145px] left-[20px] md:top-[80px] md:left-[85px] lg:top-[96px] bg-emerald"></div>
                 </div>
                 
             </div>
@@ -236,10 +236,10 @@
 
             <div class="flex flex-row ">
                 <div class="w-[50%] h-[230px] relative ">
-                    <div class="absolute z-40 right-10 top-32 md:top-[90px] md:right-[165px] lg:right-[150px] xl:right-[280px] ">
+                    <div class="absolute z-40 right-10 top-32 md:top-[90px] md:right-[160px] lg:right-[150px] xl:right-[280px] ">
                         <img class="w-[119px] h-[64px] md:w-[120px] md:h-[70px] max-w-none" src="assets/img/creme-facial.png" alt="">
                     </div>
-                    <div class="w-[144px] h-[89px] md:w-[256px] md:h-[118px] shadow-inner relative top-[120px] md:top-[55px] md:right-[10px] lg:top-[70px] bg-emerald"></div>
+                    <div class="w-[144px] h-[89px] md:w-[256px] md:h-[118px] shadow-inner relative top-[120px] md:top-[55px] md:right-[0px] lg:top-[70px] bg-emerald"></div>
                 </div>
                 <div class="w-[50%]  h-[230px] flex flex-col ">
                     <div class="md:w-[100%] flex flex-col ">
@@ -266,12 +266,13 @@
             </div>
              <!--BENEFICIOS-->
 
-            <div class="flex flex-col  mt-10 mb-14">
-                <div class="flex flex-col items-center gap-5 relative">
+                <!--mobile-->
+            <div class="mt-10 mb-14 md:hidden">
+                <div class="flex flex-col items-center gap-5 ">
                     <div>
                         <img class="w-[250px] md:w-[300px] lg:w-[350px] h-auto " src="assets/img/profutos-beneficios.png" alt="">
                     </div>
-                    <div class="flex flex-row md:flex-col gap-5 md:gap-14 md:absolute md:left-0 md:top-3 xl:left-10 ">
+                    <div class="flex flex-row gap-5">
                         <div class="flex flex-col items-center gap-2">
                             <img class="w-[70px] md:w-[85px] lg:w-[100px] h-auto" src="assets/img/tag-product-natural.png" alt="">
                             <div class="w-[100px] flex text-center">
@@ -292,9 +293,44 @@
                             
                         </div>
                     </div>
+                    <div class="flex ml-5">
+                        <div class="flex flex-col items-center gap-2">
+                            <img  class="w-[70px] md:w-[85px] lg:w-[100px] h-auto" src="assets/img/tag-product-dermato.png" alt="">
+                            <div class="w-[150px] flex text-center">
+                                <span class="text-maingreen">Dermatologicamente testado</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div>
 
-                    <div class="flex flex-row gap-5 ml-5 md:flex-col gap-5 md:gap-14 md:absolute md:right-0 md:top-3 lg:right-0 xl:right-10">
-                        <div class="hidden md:flex flex-col items-center gap-2">
+            <!--outros dispositivos-->
+            <div class="hidden md:flex w-full mt-10 mb-14">
+                <div class="flex flex-row w-[100%] justify-between items-center gap-5 ">
+                    <div class="flex flex-col gap-5">
+                        <div class="flex flex-col items-center gap-2">
+                            <img class=" md:w-[85px] lg:w-[100px] h-auto" src="assets/img/tag-product-natural.png" alt="">
+                            <div class="w-[100px] flex text-center">
+                                <span class="text-maingreen" >Produto 98% natural.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <img  class="w-[70px] md:w-[85px] lg:w-[100px] h-auto" src="assets/img/tag-product-reciclagem.png" alt="">
+                            <div class="w-[100px] flex text-center">
+                                <span class="text-maingreen">Embalagem biodegradavel</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <img class="w-[250px] md:w-[300px] lg:w-[350px] h-auto " src="assets/img/profutos-beneficios.png" alt="">
+                    </div>
+                    
+                    <div class="flex flex-col gap-5">
+                        <div class="flex flex-col items-center gap-2">
                             <img  class="w-[70px] md:w-[85px] lg:w-[100px] h-auto" src="assets/img/tag-product-currey.png" alt="">
                             <div class="w-[100px] flex text-center">
                                 <span class="text-maingreen">Não testado em animais</span>
@@ -313,6 +349,8 @@
                
                 
             </div>
+            <!--/BENEFICIOS-->
+
         </div>
     </section>
 
@@ -320,77 +358,82 @@
     <section id="section_card" class="bg-maingreen ">
         <div class=" bg-[url('assets/svg/descoracao-mobile.svg')] md:bg-[url('assets/svg/decoracao-md.svg')] lg:bg-[url('assets/svg/decoracao-lg.svg')] xl:bg-[url('assets/svg/decoracao-xl.svg')]">
           
-            <div class=" w-full h-[1000px] lg:h-[800px] flex flex-col lg:flex-row md:items-center p-5 gap-10 md:p-10 relative lg:gap-8 xl:gap-24 lg:justify-center ">
+            <div class=" w-full h-[1000px] md:h-[1230px] lg:h-[800px] flex flex-col md:justify-center  lg:flex-row p-5 gap-10 md:p-10 relative xl:p-[70px] lg:gap-8 lg:justify-between lg:items-center">
                 
                 <!--CARD-1-->
-
-                <div class="mt-14 flex flex-col lg:mt-0 ">
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] md:h-[180px] flex flex-row lg:flex-col  ">
-                        <div class=" w-[40%] md:w-[60%] lg:w-[100%] lg:h-[250px] flex items-center justify-center p-2 rounded-tl-lg lg:rounded-t-lg bg-white">
-                            <img class="w-[40px] h-auto max-w-none" src="assets/img/Hidratante.png" alt="">
+                <div class="h-[260px] w-[100%] md:w-full md:h-[300px] lg:w-[273px] lg:h-[485px] xl:w-[375px] xl:h-[500px] flex flex-col">
+                    <div class="w-[100%] h-[180px] md:h-[200px] lg:h-[380px] xl:h-[400px] flex flex row lg:flex-col ">
+                        <div class="w-[40%] md:w-[30%] md:h-[200px] lg:w-full lg:h-[266px] xl:h-[250px] flex items-center lg:justify-center bg-white rounded-tl-lg lg:rounded-t-lg">
+                            <img class="" src="assets/img/ProdutosCard/hidratante-card.png" alt="">
                         </div>
-                        <div class="bg-green w-[60%] md:w-[100%] p-3 flex flex-col  gap-2 rounded-tr-lg lg:rounded-none">
-                            <h3 class="text-text">Hidratante Corporal</h3>
-                            <p class="text-text text-sm">Surpreenda-se com a fragância autêntica e que deixa sua pele macia e perfumada.</p>
+                        <div class="w-[60%] md:w-[70%] md:h-[200px] lg:w-full lg:h-[150px] xl:h-[150px] p-2 md:p-5  bg-green rounded-tr-lg lg:rounded-none">
+                            <div class="flex flex-col  gap-5 mt-4 lg:mt-0 lg:gap-2">
+                                <h3 class="text-text md:text-xl">Hidratante Corporal</h3>
+                                <p class="text-text text-sm md:text-lg lg:text-sm opacity-80">Surpreenda-se com a fragância autêntica e que deixa sua pele macia e perfumada.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
-                        <div class="w-[70%] flex flex-col p-3 ">
-                            <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
-                            <span class="text-text text-xl">RS 170,00 á vista</span>
+                    <div class="w-full h-[80px] md:h-[100px] lg:h-[105px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
+                        <div class="w-[70%] h-full flex flex-col p-2 md:p-5  gap-2 md:ml-4 lg:ml-0">   
+                                <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
+                                <span class="text-text text-xl md:text-2xl lg:text-xl">RS 170,00 á vista</span>
                         </div>
-                        <div class=" w-[30%] flex items-center justify-center p-3 bg-cart rounded-br-lg">
-                            <img class="w-[40px] md:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
+                        <div class="w-[30%] h-full flex items-center justify-center p-3 bg-cart rounded-br-lg cursor-pointer">
+                            <img class="w-[35px] md:w-[45px] lg:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
                         </div>
                     </div>
                 </div>
                 
+                
                 <!--CARD-2-->
-
-                <div class="flex flex-col lg:mt-0 ">
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] md:h-[180px] flex flex-row lg:flex-col  ">
-                        <div class=" w-[40%] md:w-[60%] lg:w-[100%] lg:h-[250px] flex items-center justify-center p-2 rounded-tl-lg lg:rounded-t-lg bg-white">
-                            <img class="w-[100px] h-auto max-w-none" src="assets/img/creme-facial.png" alt="">
+                <div class="h-[260px] w-[100%] md:w-full md:h-[300px] lg:w-[273px] lg:h-[485px] xl:w-[375px] xl:h-[500px] flex flex-col">
+                    <div class="w-[100%] h-[180px] md:h-[200px] lg:h-[380px] xl:h-[400px] flex flex row lg:flex-col ">
+                        <div class="w-[40%] md:w-[30%] md:h-[200px] lg:w-full lg:h-[266px] xl:h-[250px] flex items-center lg:justify-center bg-white rounded-tl-lg lg:rounded-t-lg">
+                            <img class="" src="assets/img/ProdutosCard/hidratante-card.png" alt="">
                         </div>
-                        <div class="bg-green w-[60%] md:w-[100%] p-3 flex flex-col  gap-2 rounded-tr-lg lg:rounded-none">
-                            <h3 class="text-text">Creme facial</h3>
-                            <p class="text-text text-sm">Tratamento ideal para preenchimento e revitalização facial. </p>
+                        <div class="w-[60%] md:w-[70%] md:h-[200px] lg:w-full lg:h-[150px] xl:h-[150px] p-2 md:p-5  bg-green rounded-tr-lg lg:rounded-none">
+                            <div class="flex flex-col  gap-5 mt-4 lg:mt-0 lg:gap-2">
+                                <h3 class="text-text md:text-xl">Hidratante Corporal</h3>
+                                <p class="text-text text-sm md:text-lg lg:text-sm opacity-80">Surpreenda-se com a fragância autêntica e que deixa sua pele macia e perfumada.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
-                        <div class="w-[70%] flex flex-col p-3 ">
-                            <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
-                            <span class="text-text text-xl">RS 170,00 á vista</span>
+                    <div class="w-full h-[80px] md:h-[100px] lg:h-[105px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
+                        <div class="w-[70%] h-full flex flex-col p-2 md:p-5  gap-2 md:ml-4 lg:ml-0">   
+                                <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
+                                <span class="text-text text-xl md:text-2xl lg:text-xl">RS 170,00 á vista</span>
                         </div>
-                        <div class=" w-[30%] flex items-center justify-center p-3 bg-cart rounded-br-lg">
-                            <img class="w-[40px] md:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
+                        <div class="w-[30%] h-full flex items-center justify-center p-3 bg-cart rounded-br-lg cursor-pointer">
+                            <img class="w-[35px] md:w-[45px] lg:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
                         </div>
                     </div>
                 </div>
                 
 
                 <!--CARD-3-->
-
-                <div class="flex flex-col lg:mt-0 ">
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] md:h-[180px] flex flex-row lg:flex-col  ">
-                        <div class=" w-[40%] md:w-[60%] lg:w-[100%] lg:h-[250px] flex items-center justify-center p-2 rounded-tl-lg lg:rounded-t-lg bg-white">
-                            <img class="w-[50px] h-auto max-w-none" src="assets/img/Esfoliante.png" alt="">
+                <div class="h-[260px] w-[100%] md:w-full md:h-[300px] lg:w-[273px] lg:h-[485px] xl:w-[375px] xl:h-[500px] flex flex-col">
+                    <div class="w-[100%] h-[180px] md:h-[200px] lg:h-[380px] xl:h-[400px] flex flex row lg:flex-col ">
+                        <div class="w-[40%] md:w-[30%] md:h-[200px] lg:w-full lg:h-[266px] xl:h-[250px] flex items-center lg:justify-center bg-white rounded-tl-lg lg:rounded-t-lg">
+                            <img class="" src="assets/img/ProdutosCard/hidratante-card.png" alt="">
                         </div>
-                        <div class="bg-green w-[60%] md:w-[100%] p-3 flex flex-col  gap-2 rounded-tr-lg lg:rounded-none">
-                            <h3 class="text-text">Esfoliante Facial</h3>
-                            <p class="text-text text-sm">Reduz a oleosidade, deixa a pele macia e uniforme desde a primeira aplocação.</p>
+                        <div class="w-[60%] md:w-[70%] md:h-[200px] lg:w-full lg:h-[150px] xl:h-[150px] p-2 md:p-5  bg-green rounded-tr-lg lg:rounded-none">
+                            <div class="flex flex-col  gap-5 mt-4 lg:mt-0 lg:gap-2">
+                                <h3 class="text-text md:text-xl">Hidratante Corporal</h3>
+                                <p class="text-text text-sm md:text-lg lg:text-sm opacity-80">Surpreenda-se com a fragância autêntica e que deixa sua pele macia e perfumada.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-[335px] md:w-[450px] lg:w-[250px] xl:w-[300px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
-                        <div class="w-[70%] flex flex-col p-3 ">
-                            <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
-                            <span class="text-text text-xl">RS 170,00 á vista</span>
+                    <div class="w-full h-[80px] md:h-[100px] lg:h-[105px] flex flex-row bg-gradient-to-r from-greengra to-greengradi rounded-bl-lg">
+                        <div class="w-[70%] h-full flex flex-col p-2 md:p-5  gap-2 md:ml-4 lg:ml-0">   
+                                <span class="text-text text-sm opacity-80">De até 2x de 85,66 ou </span>
+                                <span class="text-text text-xl md:text-2xl lg:text-xl">RS 170,00 á vista</span>
                         </div>
-                        <div class=" w-[30%] flex items-center justify-center p-3 bg-cart rounded-br-lg">
-                            <img class="w-[40px] md:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
+                        <div class="w-[30%] h-full flex items-center justify-center p-3 bg-cart rounded-br-lg cursor-pointer">
+                            <img class="w-[35px] md:w-[45px] lg:w-[35px] h-auto" src="assets/svg/carrinho.svg" alt="">
                         </div>
                     </div>
                 </div>
+                
                 
             </div>
         </div>
@@ -402,16 +445,16 @@
  <!--Sessao da coleção -->
 
     <section id="section_kit" >
-        <div class="flex flex-col md:flex-row bg-green p-5 md:p-10  ">
+        <div class="flex flex-col md:flex-row lg:justify-between bg-green p-5 md:p-10 xl:p-[70px]  ">
             <div class=" w-[300px] h-[350px] md:w-[50%] relative mt-10 md:mt-20">
-                <div class=" relative top-20 right-10 z-0 md:right-[50px] lg:right-[0]">
+                <div class=" relative top-20 right-10 z-0 md:right-[50px] lg:right-[40px]">
                     <img class="w-[320px] lg:w-[400px]  max-w-none" src="assets/img/babosa-img-kit.png" alt="">
                 </div>
                 <div class="relative z-10 bottom-[145px] left-0  md:left-[0px] lg:bottom-[185px] lg:left-[110px]">
                 <img class=" lg:w-[350px]  max-w-none" src="assets/img/produtos-kit.png" alt="">
                 </div>
             </div>
-            <div class="w-[300px] md:w-[50%] lg:w-[400px] flex flex-col gap-4 md:mt-14 md:mb-24 mb-20">
+            <div class="w-[300px] md:w-[50%] lg:w-[400px] flex flex-col gap-4 md:mt-14 md:mb-24 mb-20 lg:mt-[150px]">
                 <div class="flex flex-col gap-3">
                     <h2 class="text-text text-2xl">Tudo para o seu bem estar e conforto</h2>
                     <p class="text-text text-base">Adiquirindo a linha completa de Aloe asthetics garante uma linda nécessarie, 
@@ -438,29 +481,29 @@
 
 
     <footer id="section_Contacts" class="bg-maingreen">
-        <div class="p-5 flex flex-col gap-10 md:p-10">
+        <div class="p-5 flex flex-col gap-10 md:p-10 xl:p-[70px]">
             <div class="flex flex-col md:flex-row md:justify-center lg:justify-between xl:justify-between mt-14 gap-10 md:mt-10 md:gap-14 ">
-                <div class="flex flex-col gap-2">
+                <div class="flex flex-col gap-2 p-2">
                     <h2 class="text-text text-xl">Sobre-nós</h2>
                     <a class="text-text text-base opacity-80" href="">Cliente</a>
                     <a class="text-text text-base opacity-80" href="">Investidores</a>
                     <a class="text-text text-base opacity-80" href="">patrocinadores</a>
                 </div>
-                <div  class="flex flex-col gap-2">
+                <div  class="flex flex-col gap-2 p-2">
                     <h2 class="text-text text-xl">Ajuda e Suporte</h2>
                     <a class="text-text text-base opacity-80" href="">Segurança e privacidade</a>
                     <a class="text-text text-base opacity-80" href="">Trocas-devoluções-garantia</a>
                     <a class="text-text text-base opacity-80" href="">Política de entrega </a>
                     <a class="text-text text-base opacity-80" href="">Contato e Ouvidoria</a>
                 </div>
-                <div  class="flex flex-col gap-2 md:w-[300px]">
+                <div  class="flex flex-col gap-2 md:w-[300px] p-2">
                     <h2 class="text-text text-xl">Informações da Empresa</h2>
                     <span class="text-text text-base opacity-80">A empresa Aloe aesthetics foi criada figurativamente para a exposição de projeto pessoal.</span>
                 </div>
             </div>
             
             <div class="w-full h-1 bg-white rounded-lg"></div>
-            <div class="flex flex-row justify-between md:mt-4 mb-10">
+            <div class="flex flex-row justify-between md:mt-4 mb-10 lg:mt-0">
                 <img class="w-[150px] md:w-[200px]" src="assets/svg/Logo-alo.svg" alt="">
                 <div class="flex flex-row gap-5">
                     <a href="tel:+91988166462"><img class="w-[20px] md:w-[30px] h-auto" src="assets/svg/whatsapp.svg" alt=""></a>

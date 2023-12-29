@@ -1,0 +1,8 @@
+.item {
+  flex-shrink: 0;
+}
+.currente-item {
+}
+.conteiner-carrossel::-webkit-scrollbar {
+  display: none;
+}

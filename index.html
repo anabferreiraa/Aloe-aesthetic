@@ -33,9 +33,9 @@
     <header>
       <div class="w-full flex flex-col md:flex-row">
         <div
-          class="w-full md:w-3/6 md:h-[550px] xl:h-[660px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24 bg-maingreen"
+          class="w-full md:w-3/6 md:h-[600px] xl:h-[700px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24 bg-green"
         >
-          <nav class="flex flex-row items-center mt-5">
+          <nav class="w-full h-[70px] flex flex-row items-center gap-5">
             <div>
               <img
                 class="w-[176px] md:w-[200px] lg:w-[165px] h-auto"
@@ -43,25 +43,33 @@
                 alt=""
               />
             </div>
-            <div
-              class="hidden lg:flex flex-row lg:gap-5 xl:gap-10 xl:ml-24 lg:ml-6"
-            >
+            <div class="hidden lg:flex flex-row lg:gap-5 xl:gap-10 lg:ml-6">
               <div>
                 <a class="text-text" href="#section_card">Produtos</a>
+                <div
+                  class="hidden [100%] h-1 bg-white rounded-lg opacity-60"
+                ></div>
               </div>
-              <div>
-                <a class="text-text" href="#sectionProduct">Informações</a>
-              </div>
+
               <div>
                 <a class="text-text" href="#section_Contacts">Contatos</a>
+                <div
+                  class="hidden w-[100%] h-1 bg-white rounded-lg opacity-60"
+                ></div>
+              </div>
+              <div>
+                <a class="text-text" href="#section_Contacts">Carrinho</a>
+                <div
+                  class="hidden w-[100%] h-1 bg-white rounded-lg opacity-60"
+                ></div>
               </div>
             </div>
           </nav>
 
           <div
-            class="w-[340px] h-auto md:w-[300px] lg:w-[350px] xl:w-[400px] flex flex-col justify-center mb-14 gap-5 xl:gap-8 lg:mt-5"
+            class="w-[340px] h-auto md:w-[300px] lg:w-[350px] xl:w-[600px] flex flex-col justify-center mb-14 gap-5 xl:gap-8"
           >
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-2 xl:mt-5">
               <div>
                 <span class="text-text text-xs md:text-sm opacity-60"
                   >Conheça</span
@@ -73,14 +81,17 @@
                   Aloe aesthetic
                 </h1>
                 <p class="text-text text-base md:text-lg xl:text-xl">
-                  Uma linha completa e especializada em cuidar da sua saúde e
-                  bem estar. sempre PRESERVANDO o meio ambiente.
+                  Uma linha completa e especializada em cuidar da saúde da sua
+                  pele, proporcionando bem estar e rejuvenescimento.
+                </p>
+                <p class="text-text text-base md:text-lg xl:text-xl">
+                  E sempre preservando a natureza
                 </p>
               </div>
             </div>
 
             <div
-              class="w-[150px] h-[40px] xl:w-[200px] flex items-center justify-center bg-green rounded-md"
+              class="w-[150px] h-[50px] xl:w-[200px] flex items-center justify-center bg-maingreen rounded-md"
             >
               <a
                 class="text-text flex flex-row items-center"
@@ -94,66 +105,22 @@
         <!--segunda sessao da header -->
 
         <div
-          class="hidden md:flex md:w-3/6 md:h-[550px] xl:h-[660px] flex flex-col bg-green"
+          class="hidden md:flex md:w-3/6 md:h-[600px] xl:h-[700px] flex flex-col bg-green"
         >
-          <div
-            class="w-full flex flex-col md:justify-center items-center relative"
-          >
-            <!--imagem de efeito para md -->
-            <div
-              class="hidden md:flex lg:hidden relative md:top-[150px] md:right-5 xl:right-10 xl:top-[200px]"
-            >
+          <div class="w-full h-full flex flex-row">
+            <div class="w-[50%] xl:w-[40%] md:z-10">
               <img
-                class="max-w-none"
-                src="assets/img/imagem-efect-md.png"
+                class="md:w-[300px] lg:w-[300px] xl:w-[350px] h-auto md:mt-[125px] lg:mt-[125px] lg:ml-[-20px] xl:mt-[148px] xl:ml-[50px] max-w-none"
+                src="assets/img/Header/produtos-header.png"
                 alt=""
               />
             </div>
-            <!--imagem de efeito para lg -->
-            <div
-              class="hidden lg:flex xl:hidden relative lg:top-[160px] lg:right-7"
-            >
+            <div class="w-[50%] xl:w-[60%]">
               <img
-                class="max-w-none"
-                src="assets/img/imagem-efect-lg.png"
+                class="w-full h-full"
+                src="assets/img/Header/imagem-efeito-header.png"
                 alt=""
               />
-            </div>
-            <!--imagem de efeito para xl -->
-            <div class="hidden xl:flex relative xl:top-[170px] xl:right-6">
-              <img
-                class="max-w-none"
-                src="assets/img/imagem-efect-xl.png"
-                alt=""
-              />
-            </div>
-            <!--imagem dos produtos-->
-            <div
-              class="relative md:bottom-[168px] md:right-[100px] lg:bottom-[155px] lg:right-[150px] xl:bottom-[147px] xl:right-[250px]"
-            >
-              <img
-                class="max-w-none"
-                src="assets/img/Produtos-header.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div
-            class="w-[100px] xl:w-[270px] h-auto flex flex-col gap-4 md:gap-2 xl:gap-4 relative md:left-[200px] md:bottom-[400px] lg:bottom-[375px] lg:left-[260px] xl:left-[350px] xl:bottom-[420px]"
-          >
-            <div class="w-[100px] md:w-[170px] xl:w-[250px]">
-              <h1 class="text-text text-2xl xl:text-4xl">
-                Adquira a coleção completa
-              </h1>
-            </div>
-            <div class="w-[150px] xl:w-[200px] flex flex-row items-start">
-              <a
-                class="w-[100px] h-[40px] py-2 text-center text-base xl:text-lg text-text bg-gradient-to-r from-greengra to-greengradi rounded-md"
-                href="#section_kit"
-              >
-                Ver Kit
-              </a>
             </div>
           </div>
         </div>
@@ -210,50 +177,49 @@
       <div class="flex flex-col p-5 gap-10 md:p-10 xl:p-[70px]">
         <!--title-beneficios-->
 
-        <div class="flex flex-row items-center gap-2 mt-14">
-          <div class="w-[15px] h-[18px] bg-green"></div>
-          <div>
+        <div class="flex flex-row justify-between items-center">
+          <div class="flex flex-row items-center gap-2">
+            <div class="w-[15px] h-[18px] bg-green"></div>
             <h2 class="text-xl md:text-2xl xl:text-3xl">
               Tudo para o seu bem estar!
             </h2>
           </div>
+          <div class="flex justify-between gap-5 xl:hidden">
+            <button class="cursor-pointer arrow-left control">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5 8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button class="cursor-pointer arrow-right control">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
 
         <!--BENEFICIOS COM CARROSSEL-->
-
-        <div class="flex justify-between mt-10 xl:hidden">
-          <button class="cursor-pointer arrow-left control">
-            <svg
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-8 h-8"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 19.5 8.25 12l7.5-7.5"
-              />
-            </svg>
-          </button>
-          <button class="cursor-pointer arrow-right control">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-8 h-8"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              />
-            </svg>
-          </button>
-        </div>
 
         <div
           class="w-full flex flex-row gap-3 md:gap-5 overflow-x-auto conteiner-carrossel xl:hidden"
@@ -822,7 +788,7 @@
           >
             <img
               class="w-[320px] lg:w-[400px] xl:w-[470px] h-auto max-w-none"
-              src="assets/img/ProdutosColecao/babosa-img-kit.png"
+              src="assets/img/ProdutosColecao/enfeite-colecao-mobile.png"
               alt=""
             />
           </div>

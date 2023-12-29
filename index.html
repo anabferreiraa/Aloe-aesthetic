@@ -31,9 +31,9 @@
   </head>
   <body>
     <header>
-      <div class="w-full flex flex-col md:flex-row">
+      <div class="w-full flex flex-col md:flex-row bg-cart">
         <div
-          class="w-full md:w-3/6 md:h-[600px] xl:h-[700px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24 bg-green"
+          class="w-full md:w-3/6 md:h-[700px] xl:h-[700px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24 bg-green"
         >
           <nav class="w-full h-[70px] flex flex-row items-center gap-5">
             <div>
@@ -105,19 +105,41 @@
         <!--segunda sessao da header -->
 
         <div
-          class="hidden md:flex md:w-3/6 md:h-[600px] xl:h-[700px] flex flex-col bg-green"
+          class="h-[400px] md:flex md:w-3/6 md:h-[700px] xl:h-[700px] flex flex-col bg-green"
         >
           <div class="w-full h-full flex flex-row">
-            <div class="w-[50%] xl:w-[40%] md:z-10">
-              <img
-                class="md:w-[300px] lg:w-[300px] xl:w-[350px] h-auto md:mt-[125px] lg:mt-[125px] lg:ml-[-20px] xl:mt-[148px] xl:ml-[50px] max-w-none"
-                src="assets/img/Header/produtos-header.png"
-                alt=""
-              />
+            <div
+              class="w-[50%] xl:w-[40%] flex items-center items-center justify-center"
+            >
+              <div class="w-full flex flex-col gap-5 p-5 md:hidden">
+                <span class="text-text text-lg"
+                  >Adquira a coleção completa</span
+                >
+                <div
+                  class="w-[150px] h-[50px] xl:w-[200px] flex items-center justify-center bg-gradient-to-r from-greengra to-greengradi rounded-md"
+                >
+                  <a
+                    class="text-text flex flex-row items-center"
+                    href="#sectionProduct"
+                  >
+                    Ver coleção
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="w-[50%] xl:w-[60%]">
+            <div class="w-[50%] md:w-[100%] xl:w-[60%] relative">
+              <div
+                class="z-10 absolute right-0 top-10 md:top-[145px] md:right-[20px]"
+              >
+                <img
+                  class="w-[200px] md:w-[300px] lg:w-[300px] xl:w-[350px] h-auto max-w-none"
+                  src="assets/img/Header/produtos-header.png"
+                  alt=""
+                />
+              </div>
+
               <img
-                class="w-full h-full"
+                class="w-full h-full opacity-60"
                 src="assets/img/Header/imagem-efeito-header.png"
                 alt=""
               />
@@ -127,9 +149,11 @@
       </div>
     </header>
 
-    <section class="w-full bg-maingreen flex-col">
-      <div class="relative flex md:flex-row">
-        <div class="md:w-[50%] h-[450px] w-[100%] bg-green">
+    <section>
+      <div
+        class="relative h-[600px] flex flex-col md:flex-row w-full bg-maingreen"
+      >
+        <div class="md:w-[50%] h-[100%] w-[100%] bg-green">
           <img class="w-full h-full" src="assets/img/babosa-intro.jpg" alt="" />
         </div>
 
@@ -170,14 +194,11 @@
 
     <!--sessao dos produtos   -->
 
-    <section
-      id="sectionProduct"
-      class="h-auto w-full bg-white lg:flex lg:flex-col"
-    >
+    <section id="sectionProduct">
       <div class="flex flex-col p-5 gap-10 md:p-10 xl:p-[70px]">
         <!--title-beneficios-->
 
-        <div class="flex flex-row justify-between items-center">
+        <div class="flex flex-row justify-between items-center mt-[80px]">
           <div class="flex flex-row items-center gap-2">
             <div class="w-[15px] h-[18px] bg-green"></div>
             <h2 class="text-xl md:text-2xl xl:text-3xl">
@@ -202,7 +223,6 @@
             </button>
             <button class="cursor-pointer arrow-right control">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"

@@ -30,119 +30,53 @@
     </script>
   </head>
   <body>
-    <header>
-      <div class="w-full flex flex-col md:flex-row bg-cart">
-        <div
-          class="w-full md:w-3/6 md:h-[700px] xl:h-[700px] flex flex-col p-5 gap-14 md:p-10 md:py-5 xl:p-[70px] md:gap-20 xl:gap-24 bg-green"
-        >
-          <nav class="w-full h-[70px] flex flex-row items-center gap-5">
+    <header
+      class="w-full h-auto bg-green header flex items-center justify-center"
+    >
+      <div class="w-[85%] h-[800px] flex flex-col md:flex-row">
+        <div class="w-[100%] flex flex-col">
+          <nav class="w-full flex flex-row items-center gap-5">
             <div>
-              <img
-                class="w-[176px] md:w-[200px] lg:w-[165px] h-auto"
-                src="assets/svg/Logo-alo.svg"
-                alt=""
-              />
+              <img src="assets/img/logo.png" alt="" />
             </div>
-            <div class="hidden lg:flex flex-row lg:gap-5 xl:gap-10 lg:ml-6">
+            <div class="flex flex-row gap-8">
               <div>
-                <a class="text-text" href="#section_card">Produtos</a>
-                <div
-                  class="hidden [100%] h-1 bg-white rounded-lg opacity-60"
-                ></div>
-              </div>
-
-              <div>
-                <a class="text-text" href="#section_Contacts">Contatos</a>
-                <div
-                  class="hidden w-[100%] h-1 bg-white rounded-lg opacity-60"
-                ></div>
+                <a class="text-text text-base" href="">Contatos</a>
               </div>
               <div>
-                <a class="text-text" href="#section_Contacts">Carrinho</a>
-                <div
-                  class="hidden w-[100%] h-1 bg-white rounded-lg opacity-60"
-                ></div>
+                <a class="text-text text-base" href="">Produtos</a>
+              </div>
+              <div>
+                <a class="text-text text-base" href="">Carrinho</a>
               </div>
             </div>
           </nav>
 
-          <div
-            class="w-[340px] h-auto md:w-[300px] lg:w-[350px] xl:w-[600px] flex flex-col justify-center mb-14 gap-5 xl:gap-8"
-          >
-            <div class="flex flex-col gap-2 xl:mt-5">
-              <div>
-                <span class="text-text text-xs md:text-sm opacity-60"
-                  >Conheça</span
-                >
-              </div>
-
-              <div class="flex flex-col gap-3 md:gap-2 xl:gap-3">
-                <h1 class="text-text text-3xl md:text-3xl xl:text-6xl">
-                  Aloe aesthetic
-                </h1>
-                <p class="text-text text-base md:text-lg xl:text-xl">
-                  Uma linha completa e especializada em cuidar da saúde da sua
-                  pele, proporcionando bem estar e rejuvenescimento.
-                </p>
-                <p class="text-text text-base md:text-lg xl:text-xl">
-                  E sempre preservando a natureza
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="w-[150px] h-[50px] xl:w-[200px] flex items-center justify-center bg-maingreen rounded-md"
-            >
-              <a
-                class="text-text flex flex-row items-center"
-                href="#sectionProduct"
-              >
-                Saiba mais
-              </a>
-            </div>
-          </div>
-        </div>
-        <!--segunda sessao da header -->
-
-        <div
-          class="h-[400px] md:flex md:w-3/6 md:h-[700px] xl:h-[700px] flex flex-col bg-green"
-        >
-          <div class="w-full h-full flex flex-row">
-            <div
-              class="w-[50%] xl:w-[40%] flex items-center items-center justify-center"
-            >
-              <div class="w-full flex flex-col gap-5 p-5 md:hidden">
-                <span class="text-text text-lg"
-                  >Adquira a coleção completa</span
-                >
-                <div
-                  class="w-[150px] h-[50px] xl:w-[200px] flex items-center justify-center bg-gradient-to-r from-greengra to-greengradi rounded-md"
-                >
-                  <a
-                    class="text-text flex flex-row items-center"
-                    href="#sectionProduct"
-                  >
-                    Ver coleção
-                  </a>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-col mt-40 gap-6">
+              <div class="flex flex-col gap-2">
+                <span class="text-text text-sm opacity-80">Conheça a</span>
+                <h1 class="text-text text-5xl">Aloe aesthetic</h1>
+                <div>
+                  <p class="text-text text-2xl">
+                    Uma linha completa e especializada em cuidar da sua saúde e
+                    bem estar.
+                  </p>
+                  <p class="text-text text-2xl">
+                    sempre PRESERVANDO o meio ambiente.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div class="w-[50%] md:w-[100%] xl:w-[60%] relative">
-              <div
-                class="z-10 absolute right-0 top-10 md:top-[145px] md:right-[20px]"
-              >
-                <img
-                  class="w-[200px] md:w-[300px] lg:w-[300px] xl:w-[350px] h-auto max-w-none"
-                  src="assets/img/Header/produtos-header.png"
-                  alt=""
-                />
+              <div>
+                <button
+                  class="w-[150px] h-[50px] text-text bg-gradient-to-r from-greengra to-greengradi rounded-lg"
+                >
+                  Saiba mais
+                </button>
               </div>
-
-              <img
-                class="w-full h-full opacity-60"
-                src="assets/img/Header/imagem-efeito-header.png"
-                alt=""
-              />
+            </div>
+            <div>
+              <img src="assets/img/Header/produtos-header.png" alt="" />
             </div>
           </div>
         </div>
@@ -172,7 +106,7 @@
 
           <!--sessao para outros dispositivos  -->
 
-          <div class="hidden md:flex flex-col p-5 gap-4 md:p-10 xl:p-[70px]">
+          <div class="hidden w-[70%] md:flex flex-col gap-4">
             <div>
               <h1 class="text-text text-2xl md:text-3xl">Aloe Vera</h1>
             </div>
@@ -194,8 +128,8 @@
 
     <!--sessao dos produtos   -->
 
-    <section id="sectionProduct">
-      <div class="flex flex-col p-5 gap-10 md:p-10 xl:p-[70px]">
+    <section id="sectionProduct " class="flex justify-center items-center">
+      <div class="w-[85%] flex flex-col">
         <!--title-beneficios-->
 
         <div class="flex flex-row justify-between items-center mt-[80px]">
@@ -385,11 +319,7 @@
               <div
                 class="w-[100%] xl:h-[240px] flex items-center justify-center mt-5"
               >
-                <img
-                  class=""
-                  src="assets/img/ProdutosCard/hidratante-card.png"
-                  alt=""
-                />
+                <img src="assets/img/ProdutosCard/hidratante-card.png" alt="" />
               </div>
               <div class="h-0 w-full border border-green"></div>
               <div
@@ -629,10 +559,10 @@
 
     <section id="section_card" class="bg-maingreen">
       <div
-        class="bg-[url('assets/svg/descoracao-mobile.svg')] md:bg-[url('assets/svg/decoracao-md.svg')] lg:bg-[url('assets/svg/decoracao-lg.svg')] xl:bg-[url('assets/svg/decoracao-xl.svg')]"
+        class="flex items-center justify-center [url('assets/svg/descoracao-mobile.svg')] md:bg-[url('assets/svg/decoracao-md.svg')] lg:bg-[url('assets/svg/decoracao-lg.svg')] xl:bg-[url('assets/svg/decoracao-xl.svg')] header"
       >
         <div
-          class="w-full h-[1000px] md:h-[1230px] lg:h-[800px] flex flex-col md:justify-center lg:flex-row p-5 gap-10 md:p-10 relative xl:p-[70px] lg:gap-8 lg:justify-between lg:items-center"
+          class="w-[85%] h-[1000px] md:h-[1230px] lg:h-[800px] flex flex-col md:justify-center lg:flex-row gap-10 relative lg:gap-8 lg:justify-between lg:items-center"
         >
           <!--CARD-1-->
           <div
@@ -798,9 +728,9 @@
 
     <!--Sessao da coleção -->
 
-    <section id="section_kit">
+    <section id="section_kit" class="flex justify-center items-center bg-green">
       <div
-        class="flex flex-col md:flex-row lg:justify-between bg-green p-5 md:p-10 xl:p-[70px]"
+        class="w-[85%] h-[700px] flex flex-col md:flex-row lg:justify-between bg-green"
       >
         <div class="w-[300px] h-[350px] md:w-[50%] relative mt-10 md:mt-20">
           <div
@@ -865,8 +795,11 @@
       </div>
     </section>
 
-    <footer id="section_Contacts" class="bg-maingreen">
-      <div class="p-5 flex flex-col gap-10 md:p-10 xl:p-[70px]">
+    <footer
+      id="section_Contacts"
+      class="bg-maingreen flex items-center justify-center"
+    >
+      <div class="w-[85%] h-[500px] justify-center flex flex-col gap-10">
         <div
           class="flex flex-col md:flex-row md:justify-center lg:justify-between xl:justify-between mt-14 gap-10 md:mt-10 md:gap-14"
         >
